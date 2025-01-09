@@ -51,7 +51,18 @@ section{
     padding: 20px;
     backdrop-filter: blur(25px);
 
+    h3{
+        position: relative;
+        display: flex;
+    }
+
     .list{
+        position: relative;
+        display: flex;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin: 10px 0;
         .imgBx{
             width: 60px;
             height: 60px;
