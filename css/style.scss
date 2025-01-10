@@ -63,10 +63,35 @@ section{
         background: rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         margin: 10px 0;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover{
+            background: #fff;
+            box-shadow: -15px, 30px, 50px rgba(0, 0, 0, 0.5);
+            transform: scale(1.15) translateX(30px) translateY(-15px);
+            z-index: 1000;
+            .content{
+                .rank{
+                    right: 20px;
+                }
+                h4,p{
+                    color: #333;
+                }
+            }
+        }
+
         .imgBx{
+            position: relative;
             width: 60px;
             height: 60px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-right: 10px;
             img{
+                position: absolute;
+                top: 0;
+                left: 0;
                 width: 100%;
                 height: 100%;
                 //sirve para evitar distorciones
