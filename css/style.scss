@@ -98,5 +98,32 @@ section{
                 object-fit: cover;
             }
         }
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #fff;
+            .rank{
+                position: absolute;
+                right: -50px;
+                color: #03a9f4;
+                transition: 0.5s;
+                font-size: 2em;
+                small{
+                    font-weight: 500;
+                    opacity: 0.25;
+                }
+            }
+            h4{
+                line-height: 1.2em;
+                font-weight: 600;
+                transition: 0.5s;
+            }
+            p{
+                font-size: 0.75em;
+                transition: 0.5s;
+            }
+        }
     }
 }

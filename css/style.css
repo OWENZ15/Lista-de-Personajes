@@ -91,4 +91,30 @@ section::after {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.box .list .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.box .list .content .rank {
+  position: absolute;
+  right: -50px;
+  color: #03a9f4;
+  transition: 0.5s;
+  font-size: 2em;
+}
+.box .list .content .rank small {
+  font-weight: 500;
+  opacity: 0.25;
+}
+.box .list .content h4 {
+  line-height: 1.2em;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.box .list .content p {
+  font-size: 0.75em;
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */
